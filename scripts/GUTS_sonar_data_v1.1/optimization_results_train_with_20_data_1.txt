@@ -1,0 +1,122 @@
+Log-likelihood: 1.490e+03
+
+       Name        |  Value   |  Constraints  |  Ties  |  Prior  
+-----------------------------------------------------------------
+   rbf_variance    |  7.1126  |     (+ve)     |        |         
+  rbf_lengthscale  |  0.6854  |     (+ve)     |        |         
+  noise_variance   |  0.0500  |     Fixed     |        |         
+
+Warning: re-constraining these parameters
+noise_variance
+		 
+Log-likelihood: 1.411e+03
+
+       Name        |   Value   |  Constraints  |  Ties  |  Prior  
+------------------------------------------------------------------
+   rbf_variance    |  10.9264  |     (+ve)     |        |         
+  rbf_lengthscale  |  0.5205   |     (+ve)     |        |         
+  noise_variance   |  0.0500   |     Fixed     |        |         
+
+Warning: re-constraining these parameters
+noise_variance
+
+Log-likelihood: 1.499e+03
+
+       Name        |  Value   |  Constraints  |  Ties  |  Prior  
+-----------------------------------------------------------------
+   rbf_variance    |  7.1111  |     (+ve)     |        |         
+  rbf_lengthscale  |  0.6191  |     (+ve)     |        |         
+  noise_variance   |  0.0500  |     Fixed     |        |         
+
+Warning: re-constraining these parameters
+noise_variance
+
+Log-likelihood: 1.498e+03
+
+       Name        |  Value   |  Constraints  |  Ties  |  Prior  
+-----------------------------------------------------------------
+   rbf_variance    |  8.5117  |     (+ve)     |        |         
+  rbf_lengthscale  |  0.6436  |     (+ve)     |        |         
+  noise_variance   |  0.0500  |     Fixed     |        |         
+
+Warning: re-constraining these parameters
+noise_variance
+
+Log-likelihood: 1.424e+03
+
+       Name        |  Value   |  Constraints  |  Ties  |  Prior  
+-----------------------------------------------------------------
+   rbf_variance    |  7.9519  |     (+ve)     |        |         
+  rbf_lengthscale  |  0.4887  |     (+ve)     |        |         
+  noise_variance   |  0.0500  |     Fixed     |        |         
+
+Warning: re-constraining these parameters
+noise_variance
+
+Log-likelihood: 1.300e+03
+
+       Name        |  Value   |  Constraints  |  Ties  |  Prior  
+-----------------------------------------------------------------
+   rbf_variance    |  0.8869  |     (+ve)     |        |         
+  rbf_lengthscale  |  0.1110  |     (+ve)     |        |         
+  noise_variance   |  0.0500  |     Fixed     |        |         
+
+Warning: re-constraining these parameters
+noise_variance
+/usr/local/lib/python2.7/dist-packages/GPy-0.4.6-py2.7.egg/GPy/kern/rbf.py:230: RuntimeWarning: divide by zero encountered in divide
+  X = X / self.lengthscale
+/usr/local/lib/python2.7/dist-packages/GPy-0.4.6-py2.7.egg/GPy/kern/rbf.py:232: RuntimeWarning: invalid value encountered in add
+  self._K_dist2 = -2.*tdot(X) + (Xsquare[:, None] + Xsquare[None, :])
+
+Log-likelihood: 1.449e+03
+
+       Name        |  Value   |  Constraints  |  Ties  |  Prior  
+-----------------------------------------------------------------
+   rbf_variance    |  6.9994  |     (+ve)     |        |         
+  rbf_lengthscale  |  0.4147  |     (+ve)     |        |         
+  noise_variance   |  0.0500  |     Fixed     |        |         
+
+Warning: re-constraining these parameters
+noise_variance
+
+Log-likelihood: 1.521e+03
+
+       Name        |   Value   |  Constraints  |  Ties  |  Prior  
+------------------------------------------------------------------
+   rbf_variance    |  26.7163  |     (+ve)     |        |         
+  rbf_lengthscale  |  0.8453   |     (+ve)     |        |         
+  noise_variance   |  0.0500   |     Fixed     |        |         
+
+Warning: re-constraining these parameters
+noise_variance
+
+Log-likelihood: 1.162e+03
+
+       Name        |  Value   |  Constraints  |  Ties  |  Prior  
+-----------------------------------------------------------------
+   rbf_variance    |  0.7415  |     (+ve)     |        |         
+  rbf_lengthscale  |  0.0708  |     (+ve)     |        |         
+  noise_variance   |  0.0500  |     Fixed     |        |         
+
+Warning: re-constraining these parameters
+noise_variance
+
+Log-likelihood: 1.436e+03
+
+       Name        |   Value   |  Constraints  |  Ties  |  Prior  
+------------------------------------------------------------------
+   rbf_variance    |  11.9926  |     (+ve)     |        |         
+  rbf_lengthscale  |  0.4555   |     (+ve)     |        |         
+  noise_variance   |  0.0500   |     Fixed     |        |         
+
+Warning: re-constraining these parameters
+noise_variance
+
+Log-likelihood: 1.212e+03
+
+       Name        |  Value   |  Constraints  |  Ties  |  Prior  
+-----------------------------------------------------------------
+   rbf_variance    |  0.7838  |     (+ve)     |        |         
+  rbf_lengthscale  |  0.0804  |     (+ve)     |        |         
+  noise_variance   |  0.0500  |     Fixed     |        |         
+

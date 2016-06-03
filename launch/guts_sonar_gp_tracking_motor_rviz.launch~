@@ -1,0 +1,12 @@
+<launch>
+
+  <node name="guts_sonar_ir_node" pkg="guts" type="guts_sonar_ir_node.py" />
+  <node name="guts_sonar_gp_node" pkg="guts" type="guts_sonar_gp_node.py" cwd="node" />
+  <node name="guts_sonar_gp_tracking" pkg="guts" type="guts_sonar_gp_tracking.py" />
+  <node name="guts_motor_controller" pkg="guts" type="guts_motor_controller.py" />
+
+
+  <node name="guts_sonar_gp_rviz" pkg="guts" type="guts_sonar_gp_rviz.py" />
+  <node name="guts_gp_tracking_rviz" pkg="guts" type="guts_gp_tracking_rviz.py" />
+  <node name="rviz" pkg="rviz" type="rviz" />
+</launch>

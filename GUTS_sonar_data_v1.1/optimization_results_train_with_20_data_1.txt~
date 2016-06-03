@@ -1,0 +1,143 @@
+#####################     for gp_4       ###########################
+
+Warning: re-constraining these parameters
+noise_variance
+
+Log-likelihood: 8.168e+03
+
+       Name        |  Value   |  Constraints  |  Ties  |  Prior  
+-----------------------------------------------------------------
+   rbf_variance    |  2.0210  |     (+ve)     |        |         
+  rbf_lengthscale  |  0.4348  |     (+ve)     |        |         
+  noise_variance   |  0.0500  |     Fixed     |        |         
+
+
+#####################     for gp_3_1       ###########################
+
+Warning: re-constraining these parameters
+noise_variance
+
+Log-likelihood: 7.979e+03
+
+       Name        |  Value   |  Constraints  |  Ties  |  Prior  
+-----------------------------------------------------------------
+   rbf_variance    |  0.7284  |     (+ve)     |        |         
+  rbf_lengthscale  |  0.1404  |     (+ve)     |        |         
+  noise_variance   |  0.0500  |     Fixed     |        |         
+
+#####################     for gp_3_2       ###########################
+
+Warning: re-constraining these parameters
+noise_variance
+
+Log-likelihood: 8.166e+03
+
+       Name        |  Value   |  Constraints  |  Ties  |  Prior  
+-----------------------------------------------------------------
+   rbf_variance    |  1.6297  |     (+ve)     |        |         
+  rbf_lengthscale  |  0.3336  |     (+ve)     |        |         
+  noise_variance   |  0.0500  |     Fixed     |        |         
+
+#####################     for gp_3_3       ###########################
+
+Warning: re-constraining these parameters
+noise_variance
+
+Log-likelihood: 8.174e+03
+
+       Name        |  Value   |  Constraints  |  Ties  |  Prior  
+-----------------------------------------------------------------
+   rbf_variance    |  1.6652  |     (+ve)     |        |         
+  rbf_lengthscale  |  0.3246  |     (+ve)     |        |         
+  noise_variance   |  0.0500  |     Fixed     |        |         
+
+#####################     for gp_3_4       ###########################
+
+Warning: re-constraining these parameters
+noise_variance
+
+Log-likelihood: 7.980e+03
+
+       Name        |  Value   |  Constraints  |  Ties  |  Prior  
+-----------------------------------------------------------------
+   rbf_variance    |  0.6956  |     (+ve)     |        |         
+  rbf_lengthscale  |  0.1555  |     (+ve)     |        |         
+  noise_variance   |  0.0500  |     Fixed     |        |         
+
+#####################     for gp_2_1_2       ###########################
+
+Log-likelihood: 7.619e+03
+
+       Name        |  Value   |  Constraints  |  Ties  |  Prior  
+-----------------------------------------------------------------
+   rbf_variance    |  0.6306  |     (+ve)     |        |         
+  rbf_lengthscale  |  0.0681  |     (+ve)     |        |         
+  noise_variance   |  0.0500  |     Fixed     |        |         
+
+
+#####################     for gp_2_1_3       ###########################
+
+Warning: re-constraining these parameters
+noise_variance
+
+Log-likelihood: 8.037e+03
+
+       Name        |  Value   |  Constraints  |  Ties  |  Prior  
+-----------------------------------------------------------------
+   rbf_variance    |  0.7430  |     (+ve)     |        |         
+  rbf_lengthscale  |  0.1323  |     (+ve)     |        |         
+  noise_variance   |  0.0500  |     Fixed     |        |         
+
+
+#####################     for gp_2_1_4       ###########################
+
+Warning: re-constraining these parameters
+noise_variance
+
+Log-likelihood: 8.196e+03
+
+       Name        |  Value   |  Constraints  |  Ties  |  Prior  
+-----------------------------------------------------------------
+   rbf_variance    |  1.3091  |     (+ve)     |        |         
+  rbf_lengthscale  |  0.2753  |     (+ve)     |        |         
+  noise_variance   |  0.0500  |     Fixed     |        |         
+
+
+#####################     for gp_2_2_3       ###########################
+
+Warning: re-constraining these parameters
+noise_variance
+
+Log-likelihood: 7.368e+03
+
+       Name        |  Value   |  Constraints  |  Ties  |  Prior  
+-----------------------------------------------------------------
+   rbf_variance    |  0.5911  |     (+ve)     |        |         
+  rbf_lengthscale  |  0.0464  |     (+ve)     |        |         
+  noise_variance   |  0.0500  |     Fixed     |        |         
+
+
+#####################     for gp_2_2_4       ###########################
+
+Warning: re-constraining these parameters
+noise_variance
+
+Log-likelihood: 8.040e+03
+
+       Name        |  Value   |  Constraints  |  Ties  |  Prior  
+-----------------------------------------------------------------
+   rbf_variance    |  0.7730  |     (+ve)     |        |         
+  rbf_lengthscale  |  0.1180  |     (+ve)     |        |         
+  noise_variance   |  0.0500  |     Fixed     |        |         
+
+#####################     for gp_2_3_4       ###########################
+				
+Log-likelihood: 7.400e+03
+
+       Name        |  Value   |  Constraints  |  Ties  |  Prior  
+-----------------------------------------------------------------
+   rbf_variance    |  0.6088  |     (+ve)     |        |         
+  rbf_lengthscale  |  0.0484  |     (+ve)     |        |         
+  noise_variance   |  0.0500  |     Fixed     |        |         
+
+

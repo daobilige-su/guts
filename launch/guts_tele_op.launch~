@@ -1,0 +1,4 @@
+<launch>
+  <node name="guts_tele_op" pkg="guts" type="guts_tele_op" />
+  <node name="guts_motor_controller" pkg="guts" type="guts_motor_controller" />
+</launch>

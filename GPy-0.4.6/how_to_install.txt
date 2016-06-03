@@ -1,0 +1,6 @@
+sudo python setup.py install
+
+before that, you might also need:
+sudo apt-get install python-setuptools
+for enabling setup python tools
+

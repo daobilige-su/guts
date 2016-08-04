@@ -47,7 +47,7 @@ def gp_tracking_rviz_callback(motor_cmd_msg):
     arrow.pose.position.y = 0
     arrow.pose.position.z = 0
 
-    pub = rospy.Publisher('gp_prediction_rviz_msg', Marker)
+    pub = rospy.Publisher('gp_prediction_rviz_msg', Marker,queue_size=10)
     pub.publish(arrow)     
 
 

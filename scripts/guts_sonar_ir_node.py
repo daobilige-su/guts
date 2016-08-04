@@ -7,7 +7,7 @@ import serial
 ser = serial.Serial('/dev/ttyACM0', 9600, timeout=60)
 
 def guts_sonar_ir_pub():
-    pub = rospy.Publisher('guts_sonar_ir_data', sonar_data)
+    pub = rospy.Publisher('guts_sonar_ir_data', sonar_data,queue_size=2)
     rospy.init_node('guts_sonar_ir_node') 
     while not rospy.is_shutdown():
         current_time = rospy.get_rostime()

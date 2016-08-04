@@ -87,7 +87,7 @@ def gp_prediction_rviz_callback(gp_prediction_msg):
     
     
 
-    pub = rospy.Publisher('gp_prediction_rviz_msg', Marker)
+    pub = rospy.Publisher('gp_prediction_rviz_msg', Marker,queue_size=10)
     pub.publish(point)  
     pub.publish(point_cov)  
     pub.publish(guts_body)    

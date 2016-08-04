@@ -558,7 +558,7 @@ def callback(sonar_data_msg):
     print cov
     ################################################
 
-    pub = rospy.Publisher('gp_prediction_msg', gp_prediction)
+    pub = rospy.Publisher('gp_prediction_msg', gp_prediction,queue_size=10)
 
     gp_prediction_msg = gp_prediction()
     gp_prediction_msg.mean_x = mean[0,0]

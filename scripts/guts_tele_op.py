@@ -40,7 +40,7 @@ if __name__ == '__main__':
     settings = termios.tcgetattr(sys.stdin)
 
     rospy.init_node('guts_tele_op') 
-    pub = rospy.Publisher('motor_cmd_msg', motor_cmd)    
+    pub = rospy.Publisher('motor_cmd_msg', motor_cmd,queue_size=2)    
 
     motor_cmd_msg = motor_cmd()
 

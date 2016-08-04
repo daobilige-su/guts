@@ -15,7 +15,10 @@ This is a ROS package for our project GUTS plus the arduino codes for microcontr
 + (1) **roscd && cd ..** to go to catkin workspace's folder.
 + (2) **catkin_make** to build the package. 
 + (3) **roscd guts** to go to the folder of this package.
-+ (4) **roslaunch guts guts_sonar_gp_tracking_motor_rviz.launch** to run Gaussian Process based sonar array user tracking (with real motors) and rviz visualization.
-+ (5) **roslaunch guts guts_sonar_gp_tracking_rviz.launch** to run Gaussian Process based sonar array user tracking (but without moters running) and rviz visualization.
-+ (6) **roslaunch guts guts_sonar_gp_rviz.launch** to run run Gaussian Process based sonar array user location prediction (without tracking and motors running) and rviz visualization.
-+ (7) **roslaunch guts guts_tele_op.launch** to run teleoperation with keyboard.
++ (4) **cd GPy-0.4.6** to go Gpy folder.
++ (5) **sudo python install** to install Gpy. make sure internet is on, as the intallation process needs internet.
++ (6) **roscd guts** to go to the folder of this package.
++ (7) **roslaunch guts guts_sonar_gp_tracking_motor_rviz.launch** to run Gaussian Process based sonar array user tracking (with real motors) and rviz visualization.
++ (8) **roslaunch guts guts_sonar_gp_tracking_rviz.launch** to run Gaussian Process based sonar array user tracking (but without moters running) and rviz visualization.
++ (9) **roslaunch guts guts_sonar_gp_rviz.launch** to run run Gaussian Process based sonar array user location prediction (without tracking and motors running) and rviz visualization.
++ (10) **roslaunch guts guts_tele_op.launch** to run teleoperation with keyboard.
